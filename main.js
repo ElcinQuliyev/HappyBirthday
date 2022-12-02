@@ -34,44 +34,44 @@
 // }
 //}
 //My BirthDay.05.09.2023
-let timeBirthday = document.getElementById("day");
+// let timeBirthday = document.getElementById("day");
 
-let birthday = new Date(prompt("Ay/gun/il")).getElementById("MY_Birthday");
-///console.log(birthday);
-let second = 1000;
-let minute = second * 60;
-let hour = minute * 60;
-let day = hour * 24;
-let month = day * 30;
-let year = month * 12;
-let timerId;
+// let birthday = new Date(prompt("Ay/gun/il")).getElementById("MY_Birthday");
+// ///console.log(birthday);
+// let second = 1000;
+// let minute = second * 60;
+// let hour = minute * 60;
+// let day = hour * 24;
+// let month = day * 30;
+// let year = month * 12;
+// let timerId;
 
-function countDown() {
-  let today = new Date();
-  let timeSpan = birthday - today;
-  //milliseconds
-  console.log(timeSpan);
+// function countDown() {
+//   let today = new Date();
+//   let timeSpan = birthday - today;
+//   //milliseconds
+//   console.log(timeSpan);
 
-  //const year = Math.floor(timeSpan / year);
-  //const month = Math.floor(timeSpan / month);
-  // const days = Math.floor((timeSpan % month) / day);
-  const days = Math.floor(timeSpan / day);
-  const hours = Math.floor((timeSpan % day) / hour);
-  const minutes = Math.floor((timeSpan % hour) / minute);
-  const seconds = Math.floor((timeSpan % minute) / second);
+//   //const year = Math.floor(timeSpan / year);
+//   //const month = Math.floor(timeSpan / month);
+//   // const days = Math.floor((timeSpan % month) / day);
+//   const days = Math.floor(timeSpan / day);
+//   const hours = Math.floor((timeSpan % day) / hour);
+//   const minutes = Math.floor((timeSpan % hour) / minute);
+//   const seconds = Math.floor((timeSpan % minute) / second);
 
-  // document.getElementById("MY_Brithday")
+//   // document.getElementById("MY_Brithday")
 
-  timeBirthday.innerHTML =
-    // year +
-    // "il" +
-    // month +
-    // "ay" +
-    days + "gun " + hours + "saat " + minutes + "deqiqe " + seconds + "saniyye";
-  //// console.log(timeBirthday);
-}
+//   timeBirthday.innerHTML =
+//     // year +
+//     // "il" +
+//     // month +
+//     // "ay" +
+//     days + "gun " + hours + "saat " + minutes + "deqiqe " + seconds + "saniyye";
+//   //// console.log(timeBirthday);
+// }
 
-timerId = setInterval(countDown, second);
+// timerId = setInterval(countDown, second);
 
 // let num1 = 20;
 // let num2 = 25;
